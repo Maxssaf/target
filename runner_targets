@@ -6,16 +6,23 @@ tcp://178.57.71.182:443 tcp://178.57.71.189:443 tcp://178.57.71.190:443 tcp://18
 
 #itarmy
 
-https://evotor.ru tcp://185.170.207.77:443 https://evoprod.evotor.ru tcp://185.170.207.63:443 https://vpn.evotor.ru tcp://185.170.204.36:443
-http://ofdp.evotor.ru tcp://185.170.204.85:179 tcp://185.170.204.85:19081 tcp://185.170.204.91:179 tcp://185.170.204.91:21101
-http://pk.platformaofd.ru tcp://185.170.204.95:80 tcp://185.170.204.95:443 ns1.evotor.ru tcp://185.170.204.71:53 ns2.evotor.ru tcp://185.170.204.72:53
-https://ac.atol.ru tcp://5.188.186.133:443 tcp://5.188.186.134:443 https://uc.atol.ru tcp://45.134.27.204:443
-https://lk.atol.ru tcp://5.188.186.133:443 tcp://5.188.186.134:443 https://support.online.atol.ru tcp://93.174.48.173:443
-https://term.atol.ru tcp://178.57.71.182:443 https://www.atol.ru tcp://178.57.71.189:443 tcp://178.57.71.190:443
-https://online.atol.ru tcp://185.31.134.103:443 tcp://185.31.134.104:443
+https://express.dhl.ru tcp://185.165.123.50:443 tcp://217.73.60.2:443
+https://ponyexpress.ru tcp://185.10.63.194:80 tcp://185.10.63.194:443 tcp://82.146.44.236:80 
+tcp://82.146.44.236:443 tcp://95.163.180.40:80 tcp://95.163.180.40:443 tcp://185.10.63.192:80 tcp://185.10.63.192:443
+https://dostavista.ru tcp://185.71.67.112:80 tcp://185.71.67.112:443 tcp://185.215.4.10:80 tcp://185.215.4.10:443
+https://delivery-club.ru tcp://5.61.236.230:80 tcp://5.61.236.230:443 tcp://128.140.175.200:80 tcp://128.140.175.200:443 tcp://128.140.175.205:80 tcp://128.140.175.205:443
+https://dotochki.com tcp://195.42.165.13:80 tcp://195.42.165.13:443
+https://broniboy.ru tcp://185.137.235.138:80 tcp://185.137.235.138:443 tcp://82.202.251.98:80 tcp://82.202.251.98:443
+
+
+#https://evotor.ru tcp://185.170.207.77:443 https://evoprod.evotor.ru tcp://185.170.207.63:443 https://vpn.evotor.ru tcp://185.170.204.36:443
+#http://ofdp.evotor.ru tcp://185.170.204.85:179 tcp://185.170.204.85:19081 tcp://185.170.204.91:179 tcp://185.170.204.91:21101
+#http://pk.platformaofd.ru tcp://185.170.204.95:80 tcp://185.170.204.95:443 ns1.evotor.ru tcp://185.170.204.71:53 ns2.evotor.ru tcp://185.170.204.72:53
+#https://ac.atol.ru tcp://5.188.186.133:443 tcp://5.188.186.134:443 https://uc.atol.ru tcp://45.134.27.204:443
+#https://lk.atol.ru tcp://5.188.186.133:443 tcp://5.188.186.134:443 https://support.online.atol.ru tcp://93.174.48.173:443
+#https://term.atol.ru tcp://178.57.71.182:443 https://www.atol.ru tcp://178.57.71.189:443 tcp://178.57.71.190:443
+#https://online.atol.ru tcp://185.31.134.103:443 tcp://185.31.134.104:443
 
 #ddos separiv
 
-#https://cse-rus.ru --http-methods STRESS
-https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ https://spravka-nalog.ru https://viza.spravka-nalog.ru --http-methods STRESS
-tcp://213.24.64.138:443 tcp://213.24.64.104:443 tcp://81.176.235.2:443 tcp://213.24.64.94:443 tcp://87.242.70.127:443 tcp://90.156.242.130:443
+https://delivery-club.ru tcp://5.61.236.230:443 --http-methods STRESS
