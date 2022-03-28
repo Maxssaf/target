@@ -1,7 +1,9 @@
 #zhnec
 
-https://iml.ru/ tcp://46.243.184.194:443 tcp://146.185.211.227:443 tcp://146.185.211.227:80 --http-methods STRESS
-http://portal.iml.ru https://portal.iml.ru http://argocd.iml.ru https://argocd.iml.ru --http-methods STRESS
+https://cargocash.ru/ http://cargocash.ru/ tcp://94.228.116.171:80 tcp://94.228.116.171:443 --http-methods bypass DGB
+
+#https://iml.ru/ tcp://46.243.184.194:443 tcp://146.185.211.227:443 tcp://146.185.211.227:80 --http-methods STRESS
+#http://portal.iml.ru https://portal.iml.ru http://argocd.iml.ru https://argocd.iml.ru --http-methods STRESS
 
 
 #itarmy
