@@ -44,7 +44,7 @@ do
    echo -e "random number(s): " $random_numbers "\n"
 
    # Print all randomly selected targets on screen
-   echo -e "Choosen target(s):\n"
+   echo -e "Choosen target(s): "
    for i in $random_numbers
    do
              target=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets | cat | grep "^[^#]")")
