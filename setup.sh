@@ -10,7 +10,7 @@ sudo apt update  -y
 sudo apt install git python3 python3-pip  -y
 # for some virtual cloud systems based on debian (like GC)
 sudo apt install gcc libc-dev libffi-dev libssl-dev python3-dev rustc  -y 
-sudo pip install --upgrade pip -y
+sudo pip install --upgrade pip 
 
 
 # Install git, python3
