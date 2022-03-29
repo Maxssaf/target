@@ -29,6 +29,6 @@ tcp://79.142.16.20:443 tcp://79.142.16.48:443 tcp://79.142.16.78:443 tcp://79.14
 
 #ddos separiv
 
-https://xn--80aaanetpw3ba4m.xn--p1ai --http-methods BYPASS
 
+https://lug-info.com --http-methods GET 
 
