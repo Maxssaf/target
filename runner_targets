@@ -22,7 +22,6 @@ tcp://213.59.254.8:433 tcp://213.59.253.7:80 tcp://213.59.253.7:443
 
 
 #ddos separiv
-https://213.59.254.7:443 http://213.59.253.7:80 https://213.59.253.7:443 --http-methods GET STRESS
 
 
-
+https://payanyway.ru https://www.avtovokzaly.ru https://bus.tutu.ru https://185.111.86.13:443 --http-methods GET DGB STRESS 
