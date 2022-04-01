@@ -1,7 +1,7 @@
 #zhnec
 
-https://payanyway.ru --http-methods GET STRESS 
-tcp://185.111.84.213:443 
+https://payanyway.ru tcp://185.111.84.213:443 --http-methods GET STRESS 
+
 
 #itarmy
 
