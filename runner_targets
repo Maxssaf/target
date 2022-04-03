@@ -14,4 +14,6 @@ https://mx12.cdek.ru http://pokupkiusa.cdek.ru https://pokupkiusa.cdek.ru --http
 https://pokupkiusa.track24.ru/ http://login.izusa.cdek.ru https://fivepost.ru --http-methods GET STRESS
 https://boxberry.ru https://www.cse.ru http://178.248.238.208:80 --http-methods GET STRESS
 http://193.232.108.86:80 https://193.107.237.86:443 https://185.65.22.9:443 --http-methods GET STRESS
-http://194.49.120.60:80 https://194.49.120.60:443 tcp://178.248.232.188:80 tcp://178.248.232.188:443 --http-methods GET STRESS
+http://194.49.120.60:80 https://194.49.120.60:443 tcp://178.248.232.188:80  --http-methods GET STRESS
+
+https://cdek.kz/ru/ https://cdek.by/ru/ tcp://178.248.232.188:443 --http-methods GET STRESS   
