@@ -3,7 +3,8 @@
 https://www.auchan.ru tcp://46.243.184.45:443 tcp://194.84.13.19:443 --http-methods GET STRESS
 https://auchan.ru tcp://46.243.184.43:443 tcp://46.243.184.47:443 --http-methods GET STRESS
 
-#itarmy
+#gaidamaky
+62.76.145.84:443 62.76.145.10:53 62.76.145.9:53 --http-methods STRESS
 
 
 
