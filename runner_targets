@@ -1,7 +1,6 @@
 #zhnec
 
-https://www.auchan.ru tcp://46.243.184.45:443 tcp://194.84.13.19:443 --http-methods GET STRESS
-https://auchan.ru tcp://46.243.184.43:443 tcp://46.243.184.47:443 --http-methods GET STRESS
+https://www.cdek.ru/ru https://cdek.by/ru/ --http-methods GET STRESS
 
 #gaidamaky
 tcp://62.76.145.83:443 tcp://62.76.145.83:80 tcp://62.76.145.85:443 tcp://62.76.145.85:80 
