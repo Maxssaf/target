@@ -1,6 +1,8 @@
 #zhnec
 
-https://www.cdek.ru/ru https://cdek.by/ru/ --http-methods GET STRESS
+https://www.cdek.ru/ru tcp://78.46.28.63:80 tcp://195.189.222.41:443 --http-methods GET STRESS
+https://cdek.by/ru/ tcp://78.46.28.63:443 tcp://195.189.222.60:993 --http-methods GET STRESS
+
 
 #gaidamaky
 tcp://136.243.22.87:21 tcp://136.243.22.87:22 tcp://136.243.22.87:443
