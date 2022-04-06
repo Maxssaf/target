@@ -5,9 +5,9 @@ https://cdek.by/ru/ tcp://78.46.28.63:443 tcp://195.189.222.60:993 --http-method
 
 
 #gaidamaky
-tcp://79.175.9.172:21 http://www.telphin.ru/ip_telefoniya_v_spb/ https://www.telphin.ru -t 1500 --http-methods STRESS
-https://79.175.9.172 http://46.229.221.87 https://46.229.221.87 tcp://81.29.129.130:22 https://81.29.129.130 --http-methods GET
-http://213.170.84.120 https://213.170.84.120 http://213.170.84.115 https://213.170.84.115 tcp://79.175.9.172:22 --http-methods GET
+https://www.zia.aero/ --http-methods STRESS
+https://93.90.220.74 https://92.246.149.20 --http-methods GET
+
 
 
 
