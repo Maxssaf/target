@@ -3,7 +3,6 @@
 https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ tcp://213.24.64.138:443 tcp://213.24.64.104:443 tcp://81.176.235.2:443 --http-methods STRESS
 https://spravka-nalog.ru https://viza.spravka-nalog.ru tcp://213.24.64.94:443 tcp://87.242.70.127:443 tcp://90.156.242.130:443 --http-methods STRESS
 
-
 #gaidamaky
 tcp://89.208.82.209:21 tcp://89.208.82.209:22 tcp://89.208.82.209:25 http://89.208.82.209 https://89.208.82.209 --http-methods GET
 tcp://89.208.82.196:21 tcp://89.208.82.196:22 tcp://89.208.82.196:25 http://89.208.82.206 https://89.208.82.206 --http-methods GET
