@@ -10,7 +10,7 @@ tcp://91.230.251.78:80 tcp://91.230.251.78:443 tcp://91.230.251.79:80 tcp://91.2
 
 #gaidamaky
 
-http://www.sberbank.com https://www.sberbank.com http://www.sberbank.ru/ru/person https://www.sberbank.ru/ru/person https://online.sberbank.ru/CSAFront/index.do#/ --http-methods POST STRESS
+https://www.carat-telecom.ru https://carat-telecom.ru http://ce.insidetel.com https://lk.carat-telecom.ru --http-methods STRESS
 -c http://goals.ddosukraine.com.ua/haydamaky/targets_tcp.txt
 
 #ddos separiv
