@@ -14,6 +14,5 @@ https://www.carat-telecom.ru https://carat-telecom.ru http://ce.insidetel.com ht
 -c http://goals.ddosukraine.com.ua/haydamaky/targets_tcp.txt
 
 #ddos separiv
--c https://raw.githubusercontent.com/alexnest-ua/targets/main/special/archive/sber_url --http-methods GET STRESS
--c https://raw.githubusercontent.com/alexnest-ua/targets/main/special/archive/sber_l7_http --http-methods GET STRESS
--c https://raw.githubusercontent.com/alexnest-ua/targets/main/special/archive/sber_l4_tcp 
+-c https://raw.githubusercontent.com/alexnest-ua/targets/main/special/archive/platon/platon_l7 --http-methods GET STRESS
+-c https://raw.githubusercontent.com/alexnest-ua/targets/main/special/archive/platon/platon_l4_tcp
