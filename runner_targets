@@ -5,7 +5,7 @@ tcp://83.169.194.21:80 tcp://83.169.194.21:443 tcp://83.169.194.22:80 tcp://83.1
 
 #gaidamaky
 
-https://www.voice-connect.ru https://voice-connect.ru https://my.voice-connect.ru http://billing.voice-connect.ru http://home.voice-connect.ru --http-methods STRESS POST 
+https://home.voice-connect.ru http://home.voice-connect.ru https://my.voice-connect.ru --http-methods STRESS POST 
 -c http://goals.ddosukraine.com.ua/haydamaky/targets_tcp.txt
 
 #ddos separiv
