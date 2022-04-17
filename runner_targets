@@ -9,6 +9,6 @@ https://home.voice-connect.ru http://home.voice-connect.ru https://my.voice-conn
 -c http://goals.ddosukraine.com.ua/haydamaky/targets_tcp.txt
 
 #ddos separiv
--c https://raw.githubusercontent.com/alexnest-ua/targets/main/special/archive/IPTV/iptv_l7_url --http-methods GET STRESS
--c https://raw.githubusercontent.com/alexnest-ua/targets/main/special/archive/IPTV/iptv_l7_http --http-methods GET STRESS
+-c https://raw.githubusercontent.com/alexnest-ua/targets/main/special/archive/IPTV/iptv_l7_url --http-methods GET POST
+-c https://raw.githubusercontent.com/alexnest-ua/targets/main/special/archive/IPTV/iptv_l7_http --http-methods GET POST
 -c https://raw.githubusercontent.com/alexnest-ua/targets/main/special/archive/IPTV/iptv_l4_tcp
