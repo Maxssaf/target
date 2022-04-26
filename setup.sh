@@ -6,7 +6,7 @@ pkill -f runner.py
 pkill -f ./start.py
 
 # Install git, python3, pip, mhddos_proxy, MHDDoS and updated proxy list.
-#sudo apt update  -y
+sudo apt update  -y
 sudo apt install python3 python3-pip  -y
 # for some virtual cloud systems based on debian (like GC)
 sudo apt install git gcc libc-dev libffi-dev libssl-dev python3-dev rustc  -y 
