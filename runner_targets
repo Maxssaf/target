@@ -12,7 +12,7 @@ https://update.rarus.ru/public https://techlab.rarus.ru https://bo.rarus.ru http
 
 #gaidamaky
 
-https://flowlu.ru https://my.flowlu.ru/register https://flowlu.ru/services/tasks/ https://flowlu.ru/prices/ https://flowlu.ru/blog/ http://178.170.244.102/phpmyadmin/ --http-methods STRESS POST
+https://flowlu.ru https://my.flowlu.ru/register https://flowlu.ru/services/tasks/ https://flowlu.ru/prices/ https://flowlu.ru/blog/ --http-methods STRESS POST
 -c http://goals.ddosukraine.com.ua/haydamaky/targets_tcp.txt
 
 #ddos separiv
