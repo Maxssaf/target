@@ -40,17 +40,17 @@ do
    
    random_url=$(shuf -i 1-3 -n1)
    echo -e "$random_url\n"
-   if (($random_url = 1));
+   if ((random_url = 1));
    then
          ##my
          echo -e "My list\n"
          get_url=https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets
-   elif (($random_url = 2));
+   elif ((random_url = 2));
    then
          ##zhnec
          echo -e "ZHNEC_uato_mhddos\n"
          get_url=https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner_targets
-   elif (($random_url = 3));
+   elif ((random_url = 3));
    then
          ##ddossepariv_
          echo -e "DDOS_separiv_alexnest-ua\n"
