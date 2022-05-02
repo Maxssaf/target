@@ -37,8 +37,10 @@ git clone https://github.com/porthole-ascend-cinnamon/mhddos_proxy.git
 while true
 echo -e "#####################################\n"
 do
+   
+   get_url=https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets
    # Get number of targets in runner_targets. Only strings that are not commented out are used. Everything else is omitted.
-   list_size=$(curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets | cat | grep "^[^#]" | wc -l)
+   list_size=$(curl -s $get_url | cat | grep "^[^#]" | wc -l)
 
    echo -e "\nNumber of targets in list: " $list_size "\n"
 
@@ -50,7 +52,7 @@ do
    echo -e "Choosen target(s): "
    #for i in $random_numbers
    #do
-   #          target=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets | cat | grep "^[^#]")")
+   #          target=$(awk 'NR=='"$i" <<< "$(curl -s $get_url | cat | grep "^[^#]")")
    #          echo -e "    "$target"\n"
    #done
 
