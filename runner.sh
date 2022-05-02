@@ -60,7 +60,7 @@ do
    for i in $random_numbers
    do
             # Filter and only get lines that starts with "runner.py". Then get one target from that filtered list.
-            cmd_line=$(awk 'NR=='"$i" <<< "$(curl -s https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets | cat | grep "^[^#]")")
+            cmd_line=$(awk 'NR=='"$i" <<< "$(curl -s $get_url | cat | grep "^[^#]")")
             echo -e " "$cmd_line"\n"
             #echo $cmd_line
             #echo $cmd_line $proxy_interval $threads $rpc
