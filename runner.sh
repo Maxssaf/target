@@ -38,7 +38,7 @@ while true
 echo -e "VERSION 02052022\n"
 do
    
-   random_url=$(shuf -i 1-3 -n1)
+   random_url="$(shuf -i 1-3 -n1)"
    echo -e "$random_url\n"
    if ((random_url = 1));
    then
