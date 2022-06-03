@@ -5,5 +5,5 @@
 #gaidamaky
 
 -c http://goals.ddosukraine.com.ua/haydamaky/targets_tcp.txt
-
+-c http://goals.ddosukraine.com.ua/haydamaky/targets_http.txt --http-methods STRESS POST
 #ddos separiv
