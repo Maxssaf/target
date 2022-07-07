@@ -48,8 +48,8 @@ do
    elif ((random_url == 2));
    then
          ##zhnec
-         echo -e "ZHNEC_uato_mhddos\n"
-         get_url=https://raw.githubusercontent.com/Aruiem234/auto_mhddos/main/runner_targets
+         echo -e "My 2\n"
+         get_url=https://raw.githubusercontent.com/Maxssaf/target/main/runner_targets
    elif ((random_url == 3));
    then
          ##ddossepariv_
